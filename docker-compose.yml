@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  boutique:
+    build: .
+    ports:
+      - "5003:5003"
